@@ -12,11 +12,5 @@ pipeline {
                 }
             }
         }
-        stage("Deploy top staging"){
-            steps{
-                build job: 'Deploy-to-staging'
-            }
-
-        }
     }
 }
